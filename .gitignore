@@ -1,0 +1,6 @@
+node_modules/
+.idea
+pnpm-debug.log
+.pnpm-debug.log
+.DS_Store
+**/**/.DS_Store

@@ -1,0 +1,45 @@
+{
+  "name": "@needfortri/common",
+  "version": "1.0.0",
+  "description": "Shared components",
+  "author": "nicolas mercier",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/needfortri/common.git"
+  },
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "bugs": {
+    "url": "https://github.com/needfortri/common/issues"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.6.1",
+    "@heroicons/react": "^1.0.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "tailwind": "^2.2.0",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.1",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "postcss": "^8.4.13",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.0.24"
+  }
+}
